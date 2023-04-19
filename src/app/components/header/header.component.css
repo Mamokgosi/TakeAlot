@@ -1,0 +1,49 @@
+.header{
+    height: 7.5rem;
+}
+.topbar{
+height: 3.5 rem;
+width: 100%;
+padding-left: 0 var(--container-padding);
+display: flex;
+align-items: center;
+justify-content: space-between; 
+}
+
+.top-left{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    
+}
+
+.top-left ul{
+    display: flex;
+    margin-left: 1rem;
+}
+
+.top li{
+    list-style: none;
+    font-size: 0.8 rem;
+    padding: 0 1rem;
+}
+.top .slash{
+    border-left: solid 2px var(--gray50);
+}
+
+.top a{
+text-decoration: none;
+color: var(--gray100);
+transition: var(--transition50);
+}
+
+.top a :hover{
+    text-decoration: none;
+    color: var(--gray150);
+    letter-spacing: 2px;
+    }
+.bottom{
+    background-color: var(--blue100);
+    width: 100%;
+    height: 4.5em;
+}
